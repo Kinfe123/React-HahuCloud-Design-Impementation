@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+;
+
+:root {
+  --primary-color:#40C605;
+  --secondary-color:#3C6BEB;
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+
+
+}
+
+.App {
+  /* text-align: center; */
+  color: black;
+  font-family: 'Poppins', sans-serif;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+71,2989d8+71,2989d8+87,2989d8+91,7db9e8+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#402ee8+3,2989d8+81,2989d8+91,7db9e8+100 */
+  /* background: #402ee8; */
+  /* Old browsers */
+  /* background: -moz-linear-gradient(45deg, #402ee8 3%, #2989d8 81%, #2989d8 91%, #7db9e8 100%); */
+  /* FF3.6-15 */
+  /* /background: -webkit-linear-gradient(45deg, #402ee8 3%, #2989d8 81%, #2989d8 91%, #7db9e8 100%); */
+  /* Chrome10-25,Safari5.1-6 */
+  /* background: linear-gradient(45deg, #402ee8 3%, #2989d8 81%, #2989d8 91%, #7db9e8 100%); */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#402ee8', endColorstr='#7db9e8', GradientType=1); */
+  /* IE6-9 fallback on horizontal gradient */
+
+  color: var(--secondary-color);
+  color: white;
+
+
+}
+
+
+
+
+.container-for-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 100px;
+  /* background-color: white; */
+  color: rgb(35, 34, 34);
+}
+
+.bottom-belay {
+  margin-top: -26px;
+}
+
+
+
+.container-for-hero .images {
+  margin-left: 500px;
+  margin-bottom:0px;
+  margin-top: -130px;
+  z-index: 0;
+
+  
+  
+  /* positio */
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+
+}
+
+.explore-listing {
+  padding: 17px 34px;
+  color: white;
+  background: #030561;
+  text-decoration: none;
+  /* color: rgb(70, 48, 69); */
+  border-radius: 10px;
+  letter-spacing: 1px;
+
+
+
+
+}
+
+.btns-forbelay {
+  margin-top: 30px;
+  text-align: center;
+  cursor: pointer;
+
+  /* border: 1px solid green; */
+
+
+}
+.container .bc {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.images-forbelay img {
+  margin-top: -30px;
+  height: 100%;
+  height: 400px;
+
+
+  text-align: center;
+  object-fit: cover;
+  object-position: 50% 50%;
+
+}
+.container .renting  img {
+  width: 30px;
+  height: 30px;
+  margin-left: 0px;
+  position:absolute;
+  top: 15px;
+  
+  
+
+}
+.container-for-hero .hero .success {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 90px;
+  
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-left: transparent;
+  border-right: transparent;
+  margin-bottom: 50px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: rgb(39, 37, 37);
+  background-color: white;
+  position: sticky;
+
+  top: 0;
+  z-index: 100;
+  padding: 23px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a45dd+3,2989d8+81,2989d8+91,7db9e8+100 */
+
+
+
+
+
+}
+.container .login {
+  position: absolute;
+  top: 30%;
+  right: 50px;
+
+}
+.container .after-sms {
+  margin-left: 36px;
+}
+.container .hahu-sms {
+  position: relative;
+  margin-right: 10px;
+}
+.container .hahu-sms a {
+  position: absolute;
+  
+  top: -20px;
+  left: 80px;
+  font-size: 13px;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 2px;
+  /* background: var(--secondary-color); */
+  background: linear-gradient(225deg, rgba(16,16,149,1) 28%, rgba(190,5,46,1) 52%, rgba(0,212,255,1) 100%);
+  
+ 
+
+  
+}
+
+.container .login a {
+  padding: 13px 30px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: bolder;
+  box-shadow: 2px 2px 2px rgb(71, 70, 70);
+ 
+}
+.hero h1 {
+  padding-top: 20px;
+}
+.hero .premium {
+  color:var(--secondary-color);
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+}
+
+.hero .nextword {
+  /* margin-top: -; */
+  margin-top:-69px;
+}
+
+.container h3 {
+  color: var(--secondary-color);
+}
+
+.links .active {
+  /* padding: 10px 10px; */
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 8px 20px;
+  position: absolute;
+  top: 7%;
+  left: 58%;
+
+
+
+  border-radius: 5px;
+  border: 3px solid var(--secondary-color);
+  margin-bottom: 20px;
+  /* box-shadow: 1px 1px 1px 1px black; */
+
+
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding: 7px 29px;
+  justify-content: center;
+  align-items: center;
+
+  /* align-self: center; */
+  margin-right: 20px;
+  margin-left: 50px;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+
+
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+  padding-left: 37px;
+
+}
+
+.container-for-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 20px;
+  
+  margin-top: 200px;
+  
+}
+
+.hero {
+  text-align: left;
+  background-color: transparent;
+
+  margin-top: -130px;
+
+}
+
+.container-for-hero .titles {
+  color: rgb(43, 67, 226);
+}
+
+.hero h1 {
+  font-size: 84px;
+}
+
+.hero .headerbutcolor {
+  background: transparent;
+  color: var(--primary-color);
+  
+}
+
+.hero .premium .pr-word {
+  color: var(--primary-color);
+}
+.container-for-hero .images {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: -130px;
+  margin-right: 4px;
+  z-index: 10;
+
+  /* positio */
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+
+}
+.container-for-hero .hero .titles .underlined-vector  {
+  margin-top: -100px;
+
+}
+.underlined-vector {
+  margin-bottom: 40px;
+}
+.inputs {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+
+  position: relative;
+}
+.starting {
+  margin-top: 20px;
+  margin-left: 4px;
+  margin-bottom: 30px;
+}
+::placeholder {
+  text-align: left;
+  color: var(--primary-color);
+  position: absolute;
+  left: 10px;
+  top: 33%;
+  font-family: 'Poppins';
+  
+}
+.inputs .input-real {
+  padding: 20px 100px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+}
+.hot-domains {
+  display: flex;
+  margin-left:5px;
+  margin-top: 5px;
+  gap: 20px;
+  color: var(--primary-color);
+  font-weight: bolder;
+
+
+}
+.inputs a {
+  padding: 18px 20px;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  position: absolute;
+  left: 300px;
+  top: -2px;
+  letter-spacing: 1px;
+
+}
+.btns {
+  margin-top: 60px;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.btns a {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  padding: 18px 35px;
+  padding-right: 70px;
+  color: white;
+  border-radius: 30px;
+  position: relative;
+  margin-right: 3px;
+
+  /* padding: 10px 30px; */
+}
+
+.btns a:hover {
+  background-color: rgb(85, 0, 74);
+  transition: 0.6s ease;
+  /* color: var(--secondary-color); */
+}
+
+.btns .spanforarrow {
+  margin-top: 20px;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 15px;
+  left: 170px;
+  /* left: 80px; */
+
+
+}
+
+.were-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.were-real {
+  border: 1px solid rgb(167, 165, 165);
+  border-radius: 30px;
+  padding: 10px 20px;
+
+}
+
+.were-real p {
+  letter-spacing: 0.2px;
+}
+
+.were-real a {
+  text-decoration: none;
+  border-radius: 20px;
+
+  padding: 8px 19px;
+  color: white;
+  background-color: black;
+  padding: 10px 30px;
+
+  font-weight: 400;
+  letter-spacing: 1px;
+
+}
+
+.were-real h3 {
+  font-weight: 700;
+}
+
+.were-real .were-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}

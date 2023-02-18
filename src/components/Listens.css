@@ -1,0 +1,12 @@
+.platform-listens {
+    width: 98.4vw;
+    height: 230px;
+  
+    background: rgba(60, 107, 235, 0.05);
+}
+.platforms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
